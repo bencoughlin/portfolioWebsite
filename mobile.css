@@ -1,0 +1,102 @@
+html, body {
+    max-width: 100%;
+}
+
+.container {
+  max-width:100%;
+  margin: 0;
+  padding: 0px;
+}
+
+.pages {
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: auto;
+}
+
+#bg1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://bencoughlin.com/Images/paraBackground1.jpg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://bencoughlin.com/Images/bedroomstudio.jpg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.content1 {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  z-index: 2;
+  margin-top: 35vh;
+}
+
+.computing {
+  color: white;
+  text-align: center;
+}
+
+.computing h1{
+  font-size: 6vw;
+}
+
+.socialIcons {
+  text-align: center;
+}
+
+.socialIcons a{
+  color: white;
+  margin: 10px;
+}
+
+.fab{
+  font-size: 4vw;
+}
+
+
+.computing i:hover {
+  color: rgb(57, 135, 193);
+}
+
+.music i:hover{
+  color: rgb(238, 113, 46);
+}
+
+p.break {
+  margin: 2px;
+}
+
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  z-index: 2;
+  margin-top: 35vh;
+}
+
+.music {
+  color: white;
+  text-align: center;
+}
+
+.music h1 {
+  font-size: 6vw;
+}
